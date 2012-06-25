@@ -24,3 +24,5 @@ class Mysql {
 	}
 
 }
+
+/* end base/mysql.php */

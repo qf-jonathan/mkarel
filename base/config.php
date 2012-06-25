@@ -7,4 +7,4 @@ $config = array(
 	'dbname'=>'taller'
 );
 
-/* fin de configuracion */
+/* end base/config.php */
