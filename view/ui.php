@@ -16,7 +16,6 @@
 				$('#tabs').tabs();
 				
 				// Autocomplete
-				//var availableTags = 
 				$( "#autocomplete" ).autocomplete({
 					source: [
 						"ActionScript",
