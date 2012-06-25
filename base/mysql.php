@@ -19,7 +19,7 @@ class Mysql {
 		return new Dataset($resultado);
 	}
 	
-	public static function ultimo_id(){
+	public static function id(){
 		return mysql_insert_id(self::$enlace);
 	}
 
