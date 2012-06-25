@@ -6,6 +6,9 @@
 		<link type="text/css" href="resources/css/jquery-ui.css" rel="stylesheet" />
 		<script type="text/javascript" src="resources/js/jquery.min.js"></script>
 		<script type="text/javascript" src="resources/js/jquery-ui.min.js"></script>
+		<script src="resources/js/jquery-css-transform.js" type="text/javascript"></script>
+		<script src="resources/js/jquery-animate-css-rotate-scale.js" type="text/javascript"></script>
+
 		<script type="text/javascript">
 			$(function(){
 
