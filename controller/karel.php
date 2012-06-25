@@ -3,7 +3,7 @@
 class KarelController extends Base {
 
 	public function indexAction() {
-		$this->set_view('karel');
+		$this->set_view('mkarel');
 	}
 	
 	public function uiAction(){

@@ -1,0 +1,74 @@
+#header,#footer,#left,#right{
+	position:absolute;
+}
+#header,#footer{
+	left:0;
+	right:0;
+}
+#left,#right{
+	top: 30px;
+	bottom: 25px;
+}
+#header{
+	top:0;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+#footer{
+	bottom: 0;
+	height: 25px;
+	font-size: 10px;
+	text-align: center;
+}
+#left{
+	left:0;
+	width:300px;
+}
+#right{
+	right:0;
+	left:300px;
+	background: green;
+}
+#tools{
+	text-align: center;
+	padding: 1px;
+}
+button {
+	padding: .4em 1em .4em 20px;
+	text-decoration: none;
+	position: relative;
+}
+button span.ui-icon {
+	margin: 0px 5px 0px 0px;
+	position: absolute;
+	left: .2em;
+	top: 50%;
+	margin-top: -8px;
+}
+#editor{
+	position:absolute;
+	top:31px;
+	left:1px;
+	right:1px;
+	bottom:1px;
+	background: yellow;
+}
+.CodeMirror {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.CodeMirror-scroll{
+	font-size: 14px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	margin: 0;
+	padding: 0;
+	border: 0px solid #BBBBBB;
+	opacity: 1;
+}
