@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="resources/css/docs.css"/>
 		<script type="text/javascript" src="resources/js/codemirror.js"></script>
 		<script type="text/javascript" src="resources/js/clike.js"></script>
+		<!--<script type="text/javascript" src="resources/js/javascript.js"></script>-->
 		<style type="text/css">
 			.CodeMirror {
 				border-top: 1px solid black;
@@ -36,6 +37,7 @@
 					lineNumbers: true,
 					theme:'ambiance',
 					mode: 'text/x-c++src',
+					//mode: 'text/javascript',
 					matchBrackets: true,
 					tabSize: 4,
 					indentUnit: 4,
