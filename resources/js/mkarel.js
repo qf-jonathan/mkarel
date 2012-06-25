@@ -181,7 +181,7 @@ $(function(){
 					'class':cl
 				});
 				if(mps[i*x+j]=='D') bl.removeClass('piso').addClass('diamante');
-				mtr[i][j]=mps[i];
+				mtr[i][j]=mps[i*x+j];
 				mp.append(bl);
 			}
 		}
@@ -210,6 +210,15 @@ $(function(){
 		var dc, ind;
 		if(dir==0 || dir==2) ind=0;
 		else ind=1;
+		console.log((pi+ddi[0][dir])+':'+(pj+ddi[1][dir]));
+		console.log(mtr[(pi+ddi[0][dir])][(pj+ddi[1][dir])]);
+		if(mtr[pi+ddi[0][dir]][pj+ddi[1][dir]]=='#'){
+			alert('he chocado!!!');
+			return false;
+		}
+		pi+=ddi[0][dir];
+		pj+=ddi[1][dir];
+		//console.log(pi+':'+pj);
 		if(ind==0)
 			rob.animate({'top':'+='+(ddi[ind][dir]*31)+'px'},'fast','linear');
 		else
