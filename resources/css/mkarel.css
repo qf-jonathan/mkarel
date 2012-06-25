@@ -1,3 +1,6 @@
+body{
+	font-family: "Trebuchet MS";
+}
 #header,#footer,#left,#right{
 	position:absolute;
 }
@@ -28,7 +31,7 @@
 #right{
 	right:0;
 	left:300px;
-	background: green;
+	background: darkgray;
 }
 #tools{
 	text-align: center;
@@ -49,10 +52,9 @@ button span.ui-icon {
 #editor{
 	position:absolute;
 	top:31px;
-	left:1px;
+	left:0px;
 	right:1px;
 	bottom:1px;
-	background: yellow;
 }
 .CodeMirror {
 	border-top: 1px solid black;
@@ -71,4 +73,22 @@ button span.ui-icon {
 	padding: 0;
 	border: 0px solid #BBBBBB;
 	opacity: 1;
+}
+
+.diamante{
+	background: url('diam.png');
+}
+.piso{
+	background: #666;
+}
+.pared{
+	background: #B43104;
+}
+.rob{
+	position:absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 1px;
+	margin-left: 1px;
+	background: url('karel.png');
 }

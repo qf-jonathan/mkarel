@@ -39,11 +39,13 @@ function acciones(){
 				</form>
 			</div>
 		</div>
-		<div id="right"></div>
+		<div id="right">
+			
+		</div>
 		<div id="footer" class="ui-widget-header">
 			<div style="margin-top: 4px;">
-				Taller de Fundamentos de Programacion e Introducción a la
-				Porgramación Competitiva
+				Taller de Fundamentos de Programación e Introducción a la
+				Programación Competitiva
 			</div>
 		</div>
 	</body>
