@@ -42,7 +42,6 @@ function acciones(){
 			</div>
 		</div>
 		<div id="right">
-			
 		</div>
 		<div id="footer" class="ui-widget-header">
 			<div style="margin-top: 4px;">
